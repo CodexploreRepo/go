@@ -49,6 +49,7 @@ func main() {
 - `fmt.Printf`: format string
   - `%T` is to get the type of the variable
   - `%v` is to get the value of the variable
+  - `%g` is to format the float values
 
 ```go
 import (

@@ -2,8 +2,12 @@
 
 ## Basics
 
-- [Variables](./docs/basics/variables.md)
+- [Variables & Constant](./docs/basics/variables.md)
+- [Pointers](./docs/basics/pointers.md)
+- [Structs, Slices, and Maps](./docs/basics/struct_slice_map.md)
 - [Functions](./docs/basics/functions.md)
+- [Loop](./docs/basics/loop.md)
+- [Flow Control Statements: `if else`, `switch`, `defer`](./docs/basics/flow_control_statement.md)
 
 ## DB
 
