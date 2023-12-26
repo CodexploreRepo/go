@@ -1,5 +1,7 @@
 # Functions
 
+## Introduction
+
 - An example of a Go's function:
   - `add` takes two parameters of type `int`.
   - returns the value as type `int` as well
@@ -40,4 +42,27 @@ func split(sum int) (x, y int) {
 func main() {
 	fmt.Println(split(17)) // return x=7 & y=10
 }
+```
+
+## `fmt.Print` functions
+
+- `fmt.Printf`: format string
+  - `%T` is to get the type of the variable
+  - `%v` is to get the value of the variable
+
+```go
+import (
+	"fmt"
+)
+
+var (
+	ToBe   bool       = false
+	MaxInt uint64     = 1<<64 - 1
+)
+
+func main() {
+	fmt.Printf("Type: %T Value: %v\n", ToBe, ToBe)      // Type: bool Value: false
+	fmt.Printf("Type: %T Value: %v\n", MaxInt, MaxInt)  // Type: uint64 Value: 18446744073709551615
+}
+
 ```
