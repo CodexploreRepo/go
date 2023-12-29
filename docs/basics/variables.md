@@ -75,6 +75,11 @@ var (
 )
 ```
 
+#### Special characters
+
+- Boolean: `true`, `false`
+- None: `nil`
+
 #### Zero values
 
 - Variables declared without an explicit initial value are given their zero value.
